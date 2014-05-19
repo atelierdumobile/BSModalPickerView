@@ -1,6 +1,8 @@
 BSModalPickerView
 =================
 
+Updated for iOS 7.
+
 ## BSModalPickerView
 
 A custom view component that presents a `UIPickerView` with a simple list of options, 
