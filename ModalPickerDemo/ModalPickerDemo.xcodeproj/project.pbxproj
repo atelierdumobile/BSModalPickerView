@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E59C8D8192AA7F100341785 /* BSModalFloatPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59C8D7192AA7F100341785 /* BSModalFloatPickerView.m */; };
 		B500DAFB17563C4900E08D3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500DAFA17563C4900E08D3B /* UIKit.framework */; };
 		B500DAFD17563C4900E08D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500DAFC17563C4900E08D3B /* Foundation.framework */; };
 		B500DAFF17563C4900E08D3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500DAFE17563C4900E08D3B /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E59C8D6192AA7F100341785 /* BSModalFloatPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSModalFloatPickerView.h; sourceTree = "<group>"; };
+		4E59C8D7192AA7F100341785 /* BSModalFloatPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSModalFloatPickerView.m; sourceTree = "<group>"; };
 		B500DAF717563C4900E08D3B /* ModalPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B500DAFA17563C4900E08D3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B500DAFC17563C4900E08D3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 				B5A7E07C17565C8F005A49C4 /* BSModalPickerBase.m */,
 				B5A7E07D17565C8F005A49C4 /* BSModalPickerView.h */,
 				B5A7E07E17565C8F005A49C4 /* BSModalPickerView.m */,
+				4E59C8D6192AA7F100341785 /* BSModalFloatPickerView.h */,
+				4E59C8D7192AA7F100341785 /* BSModalFloatPickerView.m */,
 			);
 			name = BSModalPickerView;
 			path = ../BSModalPickerView;
@@ -203,6 +208,7 @@
 				B5A7E07F17565C8F005A49C4 /* BSModalDatePickerView.m in Sources */,
 				B5A7E08017565C8F005A49C4 /* BSModalPickerBase.m in Sources */,
 				B5A7E08117565C8F005A49C4 /* BSModalPickerView.m in Sources */,
+				4E59C8D8192AA7F100341785 /* BSModalFloatPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

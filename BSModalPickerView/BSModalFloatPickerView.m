@@ -128,7 +128,7 @@
     switch (component) {
         case 0: {
             NSInteger maxValueIntegerPart = self.maxValue;
-            NSInteger numberOfDigits = [[NSString stringWithFormat:@"%d", maxValueIntegerPart] length];
+            NSInteger numberOfDigits = [[NSString stringWithFormat:@"%ld", (long)maxValueIntegerPart] length];
             CGFloat widthForRange = 25.0f * numberOfDigits;
             result = widthForRange;
             break;
@@ -145,7 +145,7 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     NSString *result = nil;
     
-    result = [NSString stringWithFormat:@"%d", row];
+    result = [NSString stringWithFormat:@"%ld", (long)row];
     
     return result;
 }
