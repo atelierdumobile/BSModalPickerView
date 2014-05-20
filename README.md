@@ -63,7 +63,7 @@ BSModalDatePickerView *datePicker = [[BSModalDatePickerView alloc] initWithDate:
 
 ## Demo
 
-Take a look at this video:
+Take a look at this video (on iOS 7, the look is properly adapted):
 
 [![BSModalPickerView Demo](https://benpublic.s3.amazonaws.com/BSModalPickerDemo.png)](https://benpublic.s3.amazonaws.com/BSModalPickerDemo.mp4)
 
