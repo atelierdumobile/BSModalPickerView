@@ -57,10 +57,13 @@
 
 - (NSArray *)additionalToolbarItems {
     if (self.showTodayButton) {
+
+        NSString *todayBtnTitle = NSLocalizedString(@"Today", @"BSModalDatePickerView");
+
         return @[
                  [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
                                                                target:nil action:nil],
-                 [[UIBarButtonItem alloc] initWithTitle:@"Today"
+                 [[UIBarButtonItem alloc] initWithTitle:todayBtnTitle
                                                   style:UIBarButtonItemStyleBordered
                                                  target:self
                                                  action:@selector(onToday:)],
