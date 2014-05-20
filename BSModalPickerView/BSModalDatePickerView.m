@@ -103,6 +103,7 @@
 
 - (void)onToday:(id)sender {
     self.selectedDate = [NSDate date];
+    [self onDone:sender];
 }
 
 @end
